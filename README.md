@@ -66,3 +66,4 @@ git reset
 
 git push origin master (makes master up to date with local changes)
 
+# startingGitNotes
