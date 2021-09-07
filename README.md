@@ -50,3 +50,19 @@ git diff --staged
 git commit -a -m "input message" (commits everything in wd, and adds message)
 
 ## extended commands
+git log - returns info from previous commits
+git log -1 (asked for limited number of commits)
+git log --oneline (all commits in one line)
+git log --stat 
+git log --patch
+
+git checkout -b ______ (type name of new branch)
+    this will create/put you in a new branch
+    changes on new branch wont effect the main
+git reset
+    git reset --soft (puts reset back to staging)
+    git reset --mixed (moves back to wd)
+    git reset --hard (moves to trash)
+
+git push origin master (makes master up to date with local changes)
+
